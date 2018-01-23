@@ -12,5 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return view('dashboard.dashboard-1');
 });
+
+Route::get('/index.html', function() {
+	return view('dashboard.dashboard-1');
+});
+
+Route::get('/index2.html', function() {
+	return view('dashboard.dashboard-2');
+});
+
