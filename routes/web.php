@@ -168,6 +168,38 @@ Route::get('/email-templates/password-reset.html', function() {
 	return view('samplepages.email-templates.password-reset');
 });
 
+Route::get('/lightbox.html', function() {
+	return view('samplepages.lightbox');
+});
+
+Route::get('/treeview.html', function() {
+	return view('samplepages.treeview');
+});
+
+Route::get('/search-result.html', function() {
+	return view('samplepages.search-result');
+});
+
+Route::get('/utility-classes.html', function() {
+	return view('samplepages.utility-classes');
+});
+
+Route::get('/custom-scroll.html', function() {
+	return view('samplepages.custom-scroll');
+});
+
+Route::get('/animation.html', function() {
+	return view('samplepages.animation');
+});
+
+Route::get('/profile.html', function() {
+	return view('samplepages.profile');
+});
+
+Route::get('/invoice.html', function() {
+	return view('samplepages.invoice');
+});
+
 /**
  * Authentication Pages
  */
