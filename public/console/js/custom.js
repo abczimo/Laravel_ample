@@ -46,7 +46,7 @@ $(document).ready(function () {
         Sets the min-height of #page-wrapper to window size.
     =========================================================== */
 
-    $(function () {
+    $(function () { 
         var set = function () {
                 var topOffset = 60,
                     width = (window.innerWidth > 0) ? window.innerWidth : this.screen.width,
