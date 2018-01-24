@@ -297,6 +297,9 @@ Route::get('/contact-detail.html', function() {
 	return view('apps.contact-detail');
 });
 
+Route::get('/widgets.html', function() {
+	return view('widgets');
+});
 
 Route::get('/documentation.html', function() {
 	return view('documentation');
