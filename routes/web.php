@@ -210,7 +210,7 @@ Route::get('/gallery.html', function() {
 
 Route::get('/pricing.html', function() {
 	return view('samplepages.pricing');
-)};
+});
 
 /**
  * Authentication Pages
