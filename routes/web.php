@@ -65,6 +65,50 @@ Route::get('/panels-wells.html', function() {
 	return view('uielements.panels-wells');
 });
 
+Route::get('/panel-ui-block.html', function() {
+	return view('uielements.panel-ui-block');
+});
+
+Route::get('/buttons.html', function() {
+	return view('uielements.buttons');
+});
+
+Route::get('/sweatalert.html', function() {
+	return view('uielements.sweatalert');
+});
+
+Route::get('/typography.html', function() {
+	return view('uielements.typography');
+});
+
+Route::get('/grid.html', function() {
+	return view('uielements.grid');
+});
+
+Route::get('/tabs.html', function() {
+	return view('uielements.tabs');
+});
+
+Route::get('/tab-stylish.html', function() {
+	return view('uielements.tab-stylish');
+});
+
+Route::get('/modals.html', function() {
+	return view('uielements.modals');
+});
+
+Route::get('/progressbars.html', function() {
+	return view('uielements.progressbars');
+});
+
+Route::get('/notification.html', function() {
+	return view('uielements.notification');
+});
+
+Route::get('/carousel.html', function() {
+	return view('uielements.carousel');
+});
+
 /**
  * Sample Pages
  */
