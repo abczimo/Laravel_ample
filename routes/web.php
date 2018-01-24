@@ -116,6 +116,80 @@ Route::get('/starter-page.html', function() {
 	return view('samplepages.starter-page');
 });
 
+Route::get('/blank.html', function() {
+	return view('samplepages.blank');
+});
+
+Route::get('/email-templates/basic.html', function() {
+	return view('samplepages.email-templates.basic');
+});
+
+Route::get('/email-templates/alert.html', function() {
+	return view('samplepages.email-templates.alert');
+});
+
+Route::get('/email-templates/billing.html', function() {
+	return view('samplepages.email-templates.billing');
+});
+
+Route::get('/email-templates/password-reset.html', function() {
+	return view('samplepages.email-templates.password-reset');
+});
+
+/**
+ * Authentication Pages
+ */
+Route::get('/login.html', function() {
+	return view('authentication.login');
+});
+
+Route::get('/login2.html', function() {
+	return view('authentication.login2');
+});
+
+Route::get('/register.html', function() {
+	return view('authentication.register');
+});
+
+Route::get('/register2.html', function() {
+	return view('authentication.register2');
+});
+
+Route::get('/register3.html', function() {
+	return view('authentication.register3');
+});
+
+Route::get('/recoverpw.html', function() {
+	return view('authentication.recoverpw');
+});
+
+Route::get('/lock-screen.html', function() {
+	return view('authentication.lock-screen');
+});
+
+/**
+ * Error Pages
+ */
+Route::get('/400.html', function() {
+	return view('errors.400');
+});
+
+Route::get('/403.html', function() {
+	return view('errors.403');
+});
+
+Route::get('/404.html', function() {
+	return view('errors.404');
+});
+
+Route::get('/500.html', function() {
+	return view('errors.500');
+});
+
+Route::get('/503.html', function() {
+	return view('errors.503');
+});
+
 /**
  * Apps
  */
