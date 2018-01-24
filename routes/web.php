@@ -168,6 +168,18 @@ Route::get('/email-templates/password-reset.html', function() {
 	return view('samplepages.email-templates.password-reset');
 });
 
+Route::get('/faq.html', function() {
+	return view('samplepages.faq');
+});
+
+Route::get('/gallery.html', function() {
+	return view('samplepages.gallery');
+});
+
+Route::get('/pricing.html', function() {
+	return view('samplepages.pricing');
+});
+
 /**
  * Authentication Pages
  */
