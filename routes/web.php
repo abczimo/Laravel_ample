@@ -109,6 +109,38 @@ Route::get('/carousel.html', function() {
 	return view('uielements.carousel');
 });
 
+Route::get('/list-style.html', function() {
+	return view('uielements.list-style');
+});
+
+Route::get('/user-cards.html', function() {
+	return view('uielements.user-cards');
+});
+
+Route::get('/timeline.html', function() {
+	return view('uielements.timeline');
+});
+
+Route::get('/timeline-horizontal.html', function() {
+	return view('uielements.timeline-horizontal');
+});
+
+Route::get('/nestable.html', function() {
+	return view('uielements.nestable');
+});
+
+Route::get('/range-slider.html', function() {
+	return view('uielements.range-slider');
+});
+
+Route::get('/tooltip-stylish.html', function() {
+	return view('uielements.tooltip-stylish');
+});
+
+Route::get('/bootstrap.html', function() {
+	return view('uielements.bootstrap');
+});
+
 /**
  * Sample Pages
  */
