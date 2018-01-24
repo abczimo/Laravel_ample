@@ -4,7 +4,7 @@
 
 	<style type="text/css">
 		.login-register {
-	    	background-image: url(../../console/images/login-register.jpg) !important;
+	    	background-image: url(console/images/login-register.jpg) !important;
 		}
 	</style>
 

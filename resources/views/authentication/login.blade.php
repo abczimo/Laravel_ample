@@ -4,7 +4,7 @@
 
 	<style type="text/css">
 		.new-login-register .lg-info-panel {
-			background-image: url(../../console/images/login-register.jpg) !important;
+			background-image: url(console/images/login-register.jpg) !important;
 		}
 	</style>
 
