@@ -32,14 +32,30 @@ Route::get('/index3.html', function() {
 });
 
 /**
- * Products
+ * eCommerce
  */
 Route::get('/products.html', function() {
-	return view('ecommerce.product');
+	return view('ecommerce.products');
 });
 
 Route::get('/product-orders.html', function() {
 	return view('ecommerce.product-orders');
+});
+
+Route::get('/product-details.html', function() {
+	return view('ecommerce.product-details');
+});
+
+Route::get('/product-edit.html', function() {
+	return view('ecommerce.product-edit');
+});
+
+Route::get('/product-cart.html', function() {
+	return view('ecommerce.product-cart');
+});
+
+Route::get('/product-checkout.html', function() {
+	return view('ecommerce.product-checkout');
 });
 
 /**
@@ -55,3 +71,5 @@ Route::get('/panels-wells.html', function() {
 Route::get('/starter-page.html', function() {
 	return view('samplepages.starter-page');
 });
+
+
