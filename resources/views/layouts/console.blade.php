@@ -61,8 +61,6 @@
 
                 @yield('content')
 
-                
-                
                 @include('partials.aside')
                 
             </div>

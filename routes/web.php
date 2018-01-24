@@ -72,4 +72,38 @@ Route::get('/starter-page.html', function() {
 	return view('samplepages.starter-page');
 });
 
+/**
+ * Apps
+ */
+Route::get('/chat.html', function() {
+	return view('apps.chat');
+});
 
+Route::get('/inbox.html', function() {
+	return view('apps.inbox');
+});
+
+Route::get('/inbox-detail.html', function() {
+	return view('apps.inbox-detail');
+});
+
+Route::get('/compose.html', function() {
+	return view('apps.compose');
+});
+
+Route::get('/contact.html', function() {
+	return view('apps.contact');
+});
+
+Route::get('/contact2.html', function() {
+	return view('apps.contact2');
+});
+
+Route::get('/contact-detail.html', function() {
+	return view('apps.contact-detail');
+});
+
+
+Route::get('/documentation.html', function() {
+	return view('documentation');
+});
