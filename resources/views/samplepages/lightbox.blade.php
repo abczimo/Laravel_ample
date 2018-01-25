@@ -3,7 +3,7 @@
 @push('stylesheets')
 
     <!-- Popup CSS -->
-    <link href="console/plugins/dist/magnific-popup.css" rel="stylesheet">
+    <link href="console/plugins/Magnific-Popup-master/dist/magnific-popup.css" rel="stylesheet">
 
 @endpush
 
@@ -156,7 +156,7 @@
 @push('scripts')
 
     <!-- Magnific popup JavaScript -->
-    <script src="console/plugins/dist/jquery.magnific-popup.min.js"></script>
-    <script src="console/plugins/dist/jquery.magnific-popup-init.js"></script>
+    <script src="console/plugins/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+    <script src="console/plugins/Magnific-Popup-master/dist/jquery.magnific-popup-init.js"></script>
 
 @endpush

@@ -297,14 +297,6 @@ Route::get('/contact-detail.html', function() {
 	return view('apps.contact-detail');
 });
 
-Route::get('/widgets.html', function() {
-	return view('widgets');
-});
-
-Route::get('/documentation.html', function() {
-	return view('documentation');
-});
-
 /**
  * Forms
  */
@@ -410,3 +402,26 @@ Route::get('/foo-tables.html', function() {
 Route::get('/jsgrid.html', function() {
 	return view('tables.jsgrid');
 });
+
+/**
+ * Icons
+ */
+Route::get('/fontawesome.html', function() {
+	return view('icons.fontawesome');
+});
+
+/**
+ * Others Pages
+ */
+Route::get('/widgets.html', function() {
+	return view('widgets');
+});
+
+Route::get('/documentation.html', function() {
+	return view('documentation');
+});
+
+Route::get('/calendar.html', function() {
+	return view('calendar');
+});
+
