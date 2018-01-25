@@ -31,7 +31,7 @@
                 <form class="no-bg-addon">
                     <div class="form-group">
                         <div class="input-group">
-                            <input type="text" class="form-control" id="exampleInputuname" placeholder="Name">
+                            <input type="text" class="form-control" id="exampleInputuname1" placeholder="Name">
                             <div class="input-group-addon"><i class="ti-user"></i></div>
                         </div>
                     </div>
@@ -95,16 +95,16 @@
                     <div class="col-sm-12 col-xs-12">
                         <form>
                             <div class="form-group">
-                                <label for="exampleInputuname">User Name</label>
+                                <label for="exampleInputuname3">User Name</label>
                                 <div class="input-group">
                                     <div class="input-group-addon"><i class="ti-user"></i></div>
-                                    <input type="text" class="form-control" id="exampleInputuname" placeholder="Username"> </div>
+                                    <input type="text" class="form-control" id="exampleInputuname3" placeholder="Username"> </div>
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
+                                <label for="exampleInputEmail2">Email address</label>
                                 <div class="input-group">
                                     <div class="input-group-addon"><i class="ti-email"></i></div>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"> </div>
+                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email"> </div>
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputphone">Phone</label>
@@ -145,37 +145,37 @@
                     <div class="col-sm-12 col-xs-12">
                         <form>
                             <div class="form-group">
-                                <label for="exampleInputuname">User Name</label>
+                                <label for="exampleInputuname7">User Name</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="exampleInputuname" placeholder="Username">
+                                    <input type="text" class="form-control" id="exampleInputuname7" placeholder="Username">
                                     <div class="input-group-addon"><i class="ti-user"></i></div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
+                                <label for="exampleInputEmail3">Email address</label>
                                 <div class="input-group">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
                                     <div class="input-group-addon"><i class="ti-email"></i></div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputphone">Phone</label>
+                                <label for="exampleInputphone2">Phone</label>
                                 <div class="input-group">
-                                    <input type="tel" class="form-control" id="exampleInputphone" placeholder="Enter phone">
+                                    <input type="tel" class="form-control" id="exampleInputphone2" placeholder="Enter phone">
                                     <div class="input-group-addon"><i class="ti-mobile"></i></div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputpwd1">Password</label>
+                                <label for="exampleInputpwd3">Password</label>
                                 <div class="input-group">
-                                    <input type="password" class="form-control" id="exampleInputpwd1" placeholder="Enter pwd">
+                                    <input type="password" class="form-control" id="exampleInputpwd3" placeholder="Enter pwd">
                                     <div class="input-group-addon"><i class="ti-lock"></i></div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputpwd2">Confirm Password</label>
+                                <label for="exampleInputpwd4">Confirm Password</label>
                                 <div class="input-group">
-                                    <input type="password" class="form-control" id="exampleInputpwd2" placeholder="Enter pwd">
+                                    <input type="password" class="form-control" id="exampleInputpwd4" placeholder="Enter pwd">
                                     <div class="input-group-addon"><i class="ti-lock"></i></div>
                                 </div>
                             </div>
@@ -202,27 +202,27 @@
                 <p class="text-muted m-b-30 font-13"> Use Bootstrap's predefined grid classes for horizontal form </p>
                 <form class="form-horizontal">
                     <div class="form-group">
-                        <label for="exampleInputuname" class="col-sm-3 control-label">Username*</label>
+                        <label for="exampleInputuname4" class="col-sm-3 control-label">Username*</label>
                         <div class="col-sm-9">
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="ti-user"></i></div>
-                                <input type="text" class="form-control" id="exampleInputuname" placeholder="Username"> </div>
+                                <input type="text" class="form-control" id="exampleInputuname4" placeholder="Username"> </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1" class="col-sm-3 control-label">Email*</label>
+                        <label for="exampleInputEmail4" class="col-sm-3 control-label">Email*</label>
                         <div class="col-sm-9">
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="ti-email"></i></div>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"> </div>
+                                <input type="email" class="form-control" id="exampleInputEmail4" placeholder="Enter email"> </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-3 control-label">Website</label>
+                        <label for="exampleInputpwd5" class="col-sm-3 control-label">Website</label>
                         <div class="col-sm-9">
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="ti-world"></i></div>
-                                <input type="text" class="form-control" id="exampleInputpwd1" placeholder="Enter Website Name"> </div>
+                                <input type="text" class="form-control" id="exampleInputpwd5" placeholder="Enter Website Name"> </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -230,7 +230,7 @@
                         <div class="col-sm-9">
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="ti-lock"></i></div>
-                                <input type="password" class="form-control" id="exampleInputpwd2" placeholder="Enter pwd"> </div>
+                                <input type="password" class="form-control" id="exampleInputpwd9" placeholder="Enter pwd"> </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -238,7 +238,7 @@
                         <div class="col-sm-9">
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="ti-lock"></i></div>
-                                <input type="password" class="form-control" id="exampleInputpwd2" placeholder="Re Enter pwd"> </div>
+                                <input type="password" class="form-control" id="exampleInputpwd6" placeholder="Re Enter pwd"> </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -263,28 +263,28 @@
                 <p class="text-muted m-b-30 font-13"> Use Bootstrap's predefined grid classes for horizontal form </p>
                 <form class="form-horizontal">
                     <div class="form-group">
-                        <label for="exampleInputuname" class="col-sm-3 control-label">Username*</label>
+                        <label for="exampleInputuname2" class="col-sm-3 control-label">Username*</label>
                         <div class="col-sm-9">
                             <div class="input-group">
-                                <input type="text" class="form-control" id="exampleInputuname" placeholder="Username">
+                                <input type="text" class="form-control" id="exampleInputuname2" placeholder="Username">
                                 <div class="input-group-addon"><i class="ti-user"></i></div>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1" class="col-sm-3 control-label">Email*</label>
+                        <label for="exampleInputEmail5" class="col-sm-3 control-label">Email*</label>
                         <div class="col-sm-9">
                             <div class="input-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail5" placeholder="Enter email">
                                 <div class="input-group-addon"><i class="ti-email"></i></div>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-3 control-label">Website</label>
+                        <label for="exampleInputpwd10" class="col-sm-3 control-label">Website</label>
                         <div class="col-sm-9">
                             <div class="input-group">
-                                <input type="text" class="form-control" id="exampleInputpwd1" placeholder="Enter Website Name">
+                                <input type="text" class="form-control" id="exampleInputpwd10" placeholder="Enter Website Name">
                                 <div class="input-group-addon"><i class="ti-world"></i></div>
                             </div>
                         </div>
@@ -293,7 +293,7 @@
                         <label for="inputPassword3" class="col-sm-3 control-label">Password*</label>
                         <div class="col-sm-9">
                             <div class="input-group">
-                                <input type="password" class="form-control" id="exampleInputpwd2" placeholder="Enter pwd">
+                                <input type="password" class="form-control" id="exampleInputpwd7" placeholder="Enter pwd">
                                 <div class="input-group-addon"><i class="ti-lock"></i></div>
                             </div>
                         </div>
@@ -302,7 +302,7 @@
                         <label for="inputPassword4" class="col-sm-3 control-label">Re Password*</label>
                         <div class="col-sm-9">
                             <div class="input-group">
-                                <input type="password" class="form-control" id="exampleInputpwd2" placeholder="Re Enter pwd">
+                                <input type="password" class="form-control" id="exampleInputpwd8" placeholder="Re Enter pwd">
                                 <div class="input-group-addon"><i class="ti-lock"></i></div>
                             </div>
                         </div>
