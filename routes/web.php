@@ -375,3 +375,38 @@ Route::get('/form-bootstrap-wysihtml5.html', function() {
 Route::get('/form-tinymce-wysihtml5.html', function() {
 	return view('forms.form-tinymce-wysihtml5');
 });
+
+/**
+ * Tables
+ */
+Route::get('/basic-table.html', function() {
+	return view('tables.basic-table');
+});
+
+Route::get('/table-layouts.html', function() {
+	return view('tables.table-layouts');
+});
+
+Route::get('/data-table.html', function() {
+	return view('tables.data-table');
+});
+
+Route::get('/bootstrap-tables.html', function() {
+	return view('tables.bootstrap-tables');
+});
+
+Route::get('/responsive-tables.html', function() {
+	return view('tables.responsive-tables');
+});
+
+Route::get('/editable-tables.html', function() {
+	return view('tables.editable-tables');
+});
+
+Route::get('/foo-tables.html', function() {
+	return view('tables.foo-tables');
+});
+
+Route::get('/jsgrid.html', function() {
+	return view('tables.jsgrid');
+});
