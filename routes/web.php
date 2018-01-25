@@ -339,3 +339,15 @@ Route::get('/form-mask.html', function() {
 Route::get('form-img-cropper.html', function() {
 	return view('forms.form-img-cropper');
 });
+
+Route::get('form-validation.html', function() {
+	return view('forms.form-validation');
+});
+
+Route::get('form-dropzone.html', function() {
+	return view('forms.form-dropzone');
+});
+
+Route::get('form-pickers.html', function() {
+	return view('forms.form-pickers');
+});
