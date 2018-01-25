@@ -23,8 +23,8 @@
     <!-- animation CSS -->
     <link href="console/css/animate.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <!-- <link href="console/css/style.css" rel="stylesheet"> -->
-    <link href="console/css/style-format.css" rel="stylesheet">
+    <link href="console/css/style.css" rel="stylesheet">
+    <!-- <link href="console/css/style-format.css" rel="stylesheet"> -->
     <!-- color CSS -->
     <!-- <link href="console/css/colors/default.css" id="theme" rel="stylesheet"> -->
     <link href="console/css/colors/megna.css" id="theme" rel="stylesheet">
