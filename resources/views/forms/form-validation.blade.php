@@ -160,4 +160,6 @@
 
 @push('scripts')
 
+    <script src="console/js/validator.js"></script>
+
 @endpush
