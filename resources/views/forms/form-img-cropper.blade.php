@@ -3,7 +3,6 @@
 @push('stylesheets')
 
     <link href="console/plugins/cropper/cropper.min.css" rel="stylesheet">
-    <link href="console/css/colors/default.css" id="theme" rel="stylesheet">
 
 @endpush
 

@@ -306,8 +306,8 @@ Route::get('/documentation.html', function() {
 });
 
 /**
-*Forms
-*/
+ * Forms
+ */
 Route::get('/form-basic.html', function() {
 	return view('forms.form-basic');
 });
@@ -336,18 +336,42 @@ Route::get('/form-mask.html', function() {
 	return view('forms.form-mask');
 });
 
-Route::get('form-img-cropper.html', function() {
+Route::get('/form-img-cropper.html', function() {
 	return view('forms.form-img-cropper');
 });
 
-Route::get('form-validation.html', function() {
+Route::get('/form-validation.html', function() {
 	return view('forms.form-validation');
 });
 
-Route::get('form-dropzone.html', function() {
+Route::get('/form-dropzone.html', function() {
 	return view('forms.form-dropzone');
 });
 
-Route::get('form-pickers.html', function() {
+Route::get('/form-pickers.html', function() {
 	return view('forms.form-pickers');
+});
+
+Route::get('/form-wizard.html', function() {
+	return view('forms.form-wizard');
+});
+
+Route::get('/form-typehead.html', function() {
+	return view('forms.form-typehead');
+});
+
+Route::get('/form-xeditable.html', function() {
+	return view('forms.form-xeditable');
+});
+
+Route::get('/form-summernote.html', function() {
+	return view('forms.form-summernote');
+});
+
+Route::get('/form-bootstrap-wysihtml5.html', function() {
+	return view('forms.form-bootstrap-wysihtml5');
+});
+
+Route::get('/form-tinymce-wysihtml5.html', function() {
+	return view('forms.form-tinymce-wysihtml5');
 });

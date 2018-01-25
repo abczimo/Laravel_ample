@@ -2,8 +2,6 @@
 
 @push('stylesheets')
 
-    <link href="console/css/colors/default.css" id="theme" rel="stylesheet">
-
 @endpush
 
 @section('content')
