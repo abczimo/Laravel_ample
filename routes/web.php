@@ -410,6 +410,26 @@ Route::get('/fontawesome.html', function() {
 	return view('icons.fontawesome');
 });
 
+Route::get('/themifyicon.html', function() {
+	return view('icons.themifyicon');
+});
+
+Route::get('/simple-line.html', function() {
+	return view('icons.simple-line');
+});
+
+Route::get('/material-icons.html', function() {
+	return view('icons.material-icons');
+});
+
+Route::get('/linea-icon.html', function() {
+	return view('icons.linea-icon');
+});
+
+Route::get('/weather.html', function() {
+	return view('icons.weather');
+});
+
 /**
  * Others Pages
  */
