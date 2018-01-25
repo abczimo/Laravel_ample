@@ -304,3 +304,38 @@ Route::get('/widgets.html', function() {
 Route::get('/documentation.html', function() {
 	return view('documentation');
 });
+
+/**
+*Forms
+*/
+Route::get('/form-basic.html', function() {
+	return view('forms.form-basic');
+});
+
+Route::get('/form-layout.html', function() {
+	return view('forms.form-layout');
+});
+
+Route::get('/form-advanced.html', function() {
+	return view('forms.form-advanced');
+});
+
+Route::get('/form-material-elements.html', function() {
+	return view('forms.form-material-elements');
+});
+
+Route::get('/form-float-input.html', function() {
+	return view('forms.form-float-input');
+});
+
+Route::get('/form-upload.html', function() {
+	return view('forms.form-upload');
+});
+
+Route::get('/form-mask.html', function() {
+	return view('forms.form-mask');
+});
+
+Route::get('form-img-cropper.html', function() {
+	return view('forms.form-img-cropper');
+});
